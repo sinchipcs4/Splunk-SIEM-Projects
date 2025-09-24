@@ -8,7 +8,8 @@ By creating dashboards and panels, the goal was to gain actionable insights from
 ---
 
 ## Objectives
-- Install and configure Splunk
+- Install and configure Splunk[Splunk_Dashboard_PPT.pptx](https://github.com/user-attachments/files/22516577/Splunk_Dashboard_PPT.pptx)
+
 - Ingest data from log files or sources
 - Build visual dashboards to monitor key metrics
 - Derive actionable insights from real-time data
