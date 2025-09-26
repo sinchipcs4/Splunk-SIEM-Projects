@@ -27,9 +27,10 @@ By creating dashboards and panels, the goal was to gain actionable insights from
 4. **Requests by Status Code Over Time** – line graph to track error spikes.  
 5. **Large File Transfers** – identifies unusually large downloads/uploads.  
 6. **Top Client IPs** – identifies most active clients/users by IP address.
-   1. Total Requests Over Time
-index=weblogs | timechart count span=1h
 
+
+1. Total Requests Over Time
+index=weblogs | timechart count span=1h
 
 Explanation: Counts all web requests per hour and visualizes traffic trends over time. Useful to monitor overall activity patterns and detect traffic spikes.
 
