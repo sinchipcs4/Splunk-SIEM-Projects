@@ -1,11 +1,9 @@
-# Splunk-SIEM-Dashboard
-# Splunk SIEM Dashboard Project
+# Splunk-SIEM-Dashboard Projects
 
 ## Overview
 This project demonstrates how Splunk can be used as a Security Information and Event Management (SIEM) tool to ingest logs, monitor key metrics, and visualize security-related events.  
 By creating dashboards and panels, the goal was to gain actionable insights from real-time log data and detect potential anomalies.
 
----
 
 ## Objectives
 - Install and configure Splunk[Splunk_Dashboard_PPT.pptx](https://github.com/user-attachments/files/22516577/Splunk_Dashboard_PPT.pptx)
@@ -14,7 +12,6 @@ By creating dashboards and panels, the goal was to gain actionable insights from
 - Build visual dashboards to monitor key metrics
 - Derive actionable insights from real-time data
 
----
 
 ## Tools & Technologies
 - Splunk Enterprise (Free Edition)
@@ -22,7 +19,6 @@ By creating dashboards and panels, the goal was to gain actionable insights from
 - Virtual Machine environment
 - SPL (Search Processing Language)
 
----
 
 ## Dashboard Panels Created
 1. **Total Requests Over Time** – shows overall traffic trend.  
@@ -62,7 +58,6 @@ index=weblogs | stats count by clientip | sort - count
 
 Explanation: Aggregates the most active client IPs. Helps detect heavy users or suspicious IPs accessing the system.
 
----
 
 ## Methodology
 1. Installed Splunk and set up the environment.  
@@ -71,7 +66,7 @@ Explanation: Aggregates the most active client IPs. Helps detect heavy users or 
 4. Created SPL queries to filter and aggregate events.  
 5. Built dashboards with multiple panels to visualize key security and traffic insights
 
-Conclusion
+## Conclusion
 Establishing this dashboard gave us a clear picture of client behavior, popular content, and online traffic trends.
 It emphasized how error spikes and HTTP status patterns can point to setup or performance problems. 
 Large file transfers and top IPs were monitored to provide insight into user impact and possible threats.
